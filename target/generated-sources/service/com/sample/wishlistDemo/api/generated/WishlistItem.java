@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 /**
  * Generated dto.
  */
-@javax.annotation.Generated(value = "hybris", date = "Mon Feb 06 01:55:14 EST 2017")
+@javax.annotation.Generated(value = "hybris", date = "Mon Mar 06 06:00:43 EST 2017")
 @XmlRootElement
 @JsonAutoDetect(isGetterVisibility = Visibility.NONE, getterVisibility = Visibility.NONE, setterVisibility = Visibility.NONE,
 		creatorVisibility = Visibility.NONE, fieldVisibility = Visibility.NONE)
@@ -22,20 +22,20 @@ public class WishlistItem
 	@com.fasterxml.jackson.annotation.JsonProperty(value="amount")
 	@javax.validation.constraints.DecimalMin(value="1")
 	@javax.validation.constraints.NotNull
-	private java.lang.Integer _amount;
+	private java.lang.Double _amount;
 
 	@com.fasterxml.jackson.annotation.JsonProperty(value="note")
 	private java.lang.String _note;
 
 	@com.fasterxml.jackson.annotation.JsonProperty(value="createdAt")
-	private java.util.Date _createdAt;
+	private java.lang.String _createdAt;
 	
 	public java.lang.String getProduct()
 	{
 		return _product;
 	}
 	
-	public java.lang.Integer getAmount()
+	public java.lang.Double getAmount()
 	{
 		return _amount;
 	}
@@ -45,7 +45,7 @@ public class WishlistItem
 		return _note;
 	}
 	
-	public java.util.Date getCreatedAt()
+	public java.lang.String getCreatedAt()
 	{
 		return _createdAt;
 	}
@@ -55,7 +55,7 @@ public class WishlistItem
 		this._product = _product;
 	}
 
-	public void setAmount(final java.lang.Integer _amount)
+	public void setAmount(final java.lang.Double _amount)
 	{
 		this._amount = _amount;
 	}
@@ -65,7 +65,7 @@ public class WishlistItem
 		this._note = _note;
 	}
 
-	public void setCreatedAt(final java.util.Date _createdAt)
+	public void setCreatedAt(final java.lang.String _createdAt)
 	{
 		this._createdAt = _createdAt;
 	}

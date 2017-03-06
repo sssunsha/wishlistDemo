@@ -17,7 +17,7 @@ import com.sample.wishlistDemo.api.generated.util.OneOfDeserializerUtility;
 /**
  * Generated dto.
  */
-@javax.annotation.Generated(value = "hybris", date = "Mon Feb 06 01:55:14 EST 2017")
+@javax.annotation.Generated(value = "hybris", date = "Mon Mar 06 06:00:43 EST 2017")
 @XmlRootElement
 @JsonAutoDetect(isGetterVisibility = Visibility.NONE, getterVisibility = Visibility.NONE, setterVisibility = Visibility.NONE,
 		creatorVisibility = Visibility.NONE, fieldVisibility = Visibility.NONE)
@@ -29,7 +29,7 @@ public class Wishlist
 	private java.lang.String _id;
 
 	@com.fasterxml.jackson.annotation.JsonProperty(value="url")
-	private java.net.URI _url;
+	private java.lang.String _url;
 
 	@com.fasterxml.jackson.annotation.JsonProperty(value="owner")
 	@javax.validation.constraints.Pattern(regexp="^.+")
@@ -42,7 +42,7 @@ public class Wishlist
 	private java.lang.String _title;
 
 	@com.fasterxml.jackson.annotation.JsonProperty(value="createdAt")
-	private java.util.Date _createdAt;
+	private java.lang.String _createdAt;
 
 	@com.fasterxml.jackson.annotation.JsonProperty(value="items")
 	@javax.validation.Valid
@@ -58,7 +58,7 @@ public class Wishlist
 		return _id;
 	}
 	
-	public java.net.URI getUrl()
+	public java.lang.String getUrl()
 	{
 		return _url;
 	}
@@ -73,7 +73,7 @@ public class Wishlist
 		return _title;
 	}
 	
-	public java.util.Date getCreatedAt()
+	public java.lang.String getCreatedAt()
 	{
 		return _createdAt;
 	}
@@ -105,7 +105,7 @@ public class Wishlist
 		this._id = _id;
 	}
 
-	public void setUrl(final java.net.URI _url)
+	public void setUrl(final java.lang.String _url)
 	{
 		this._url = _url;
 	}
@@ -120,7 +120,7 @@ public class Wishlist
 		this._title = _title;
 	}
 
-	public void setCreatedAt(final java.util.Date _createdAt)
+	public void setCreatedAt(final java.lang.String _createdAt)
 	{
 		this._createdAt = _createdAt;
 	}

@@ -11,7 +11,7 @@
     },
     "amount":
     {
-      "type":"integer",
+      "type":"number",
       "minimum":1,
       "default":1
     },
@@ -22,7 +22,7 @@
     "createdAt":
     {
       "type":"string",
-      "format":"date-time"
+      "format":"string"
     }
   },
   "required":["product", "amount"]

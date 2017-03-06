@@ -21,4 +21,6 @@
 
 	<!-- take annotation-based configuration into account, when instantiating beans -->
 	<context:annotation-config/>
+	<bean id="OAuthService" class="com.sample.wishlistDemo.OAuthService"></bean>
+    <bean id="WishlistService" class="com.sample.wishlistDemo.WishlistService"></bean> 
 </beans>
