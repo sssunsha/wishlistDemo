@@ -119,6 +119,9 @@ public class WishlistService{
     
     // prepare the base url for POST and GET
     private String prepareBaseUrl(final YaasAwareParameters yaasAware) {
-        return baseUrl + "/" + tenant + "/" + clientName + "/data/" + yaasAware.getHybrisUser();
+    	String user = yaasAware.getHybrisUser();
+    	user = user.replace("@", "_");
+    	user = user.replace(".", "_");
+        return baseUrl + "/" + tenant + "/" + clientName + "/data/" + user;
     }
 }

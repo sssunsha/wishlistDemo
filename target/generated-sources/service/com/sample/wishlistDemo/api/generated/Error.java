@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 /**
  * Generated dto.
  */
-@javax.annotation.Generated(value = "hybris", date = "Mon Mar 06 06:00:43 EST 2017")
+@javax.annotation.Generated(value = "hybris", date = "Wed Mar 08 04:12:44 EST 2017")
 @XmlRootElement
 @JsonAutoDetect(isGetterVisibility = Visibility.NONE, getterVisibility = Visibility.NONE, setterVisibility = Visibility.NONE,
 		creatorVisibility = Visibility.NONE, fieldVisibility = Visibility.NONE)
